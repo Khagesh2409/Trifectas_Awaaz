@@ -4,10 +4,12 @@ import pyaudio
 import wave
 from openai import OpenAI
 from flask_cors import CORS
-from key import OPEN_API_KEY
-
+from dotenv import load_dotenv
+import os
 app = Flask(__name__)
 cors = CORS(app, supports_credentials=True)
+load_dotenv()
+OPEN_API_KEY = os.getenv('OPEN_API_KEY')
 COUPLED = ""
 SOUND_REFERENCE = {
     'S': 'SH',
