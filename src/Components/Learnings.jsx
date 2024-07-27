@@ -4,7 +4,7 @@ import '../CSS/Learnings.css';
 import Footer from './Footer';
 import teeth from '../Assets/image 31.png'
 import assistance from '../Assets/Component 31.png'
-import videoMouth from '../Assets/InShot_20240126_153904344.mp4'
+import videoMouth from '../Assets/test.mp4'
 
 
 class Learnings extends React.Component {
